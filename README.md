@@ -17,3 +17,4 @@ You can use `-L. -lfl` to include library from working directory
 - [sample3](https://github.com/turczak/Flex/blob/main/sample1.lex) - search for HEX number in text<br>
 - [mywc](https://github.com/turczak/Flex/blob/main/mywc.lex) - my implementation of "wc" program from Linux<br>
 - [findip4](https://github.com/turczak/Flex/blob/main/findip4.lex) - find IPv4 in text
+- [average](https://github.com/turczak/Flex/blob/main/average.lex) - calculate student's gpa
