@@ -2,9 +2,16 @@
 ## Install
 `sudo apt install flex`<br>
 ## Compiling
+[libfl.a](https://github.com/turczak/Flex/blob/main/libfl.a) - flex library<br>
+
+### C
 `flex -o file.c file.lex`<br>
-`gcc -o file file.c -lfl`
-## exercises
+`gcc -o file file.c -lfl`<br>
+### C++
+`flex -o file.cpp file.lex`<br>
+`g++ -o file file.cpp -lfl`<br><br>
+You can use `-L. -lfl` to include library from working directory
+## Exercises
 - [sample1](https://github.com/turczak/Flex/blob/main/sample1.lex) - count number of lines and number of characters in text<br>
 - [sample2](https://github.com/turczak/Flex/blob/main/sample2.lex) - if "username" found in text then print curently logged user<br>
 - [sample3](https://github.com/turczak/Flex/blob/main/sample1.lex) - search for HEX number in text<br>
