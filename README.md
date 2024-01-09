@@ -19,3 +19,4 @@ You can use `-L. -lfl` to include library from working directory
 - [findip4](https://github.com/turczak/Flex/blob/main/findip4.lex) - find IPv4 in text
 - [average](https://github.com/turczak/Flex/blob/main/average.lex) - calculate student's gpa
 - [statistic_v1](https://github.com/turczak/Flex/blob/main/statistic_v1.lex) - find all unique ip's and count how many times they show up in log file
+- [statistic_v2](https://github.com/turczak/Flex/blob/main/statistic_v2.lex) - counts visists on website for each day
