@@ -18,5 +18,13 @@ You can use `-L. -lfl` to include library from working directory
 - [mywc](https://github.com/turczak/Flex/blob/main/mywc.lex) - my implementation of "wc" program from Linux<br>
 - [findip4](https://github.com/turczak/Flex/blob/main/findip4.lex) - find IPv4 in text
 - [average](https://github.com/turczak/Flex/blob/main/average.lex) - calculate student's gpa
+<br>*example of input:*
+<br>`Jan Kowalski 2, 3.5, -dob, bdb`
+<br>`Piotr Nowak dop, dst, +dop, dob, -dob, 3, 2.5`
 - [statistic_v1](https://github.com/turczak/Flex/blob/main/statistic_v1.lex) - find all unique ip's and count how many times they show up in log file
+<br>*[ServAccessLog](https://github.com/turczak/Flex/blob/main/ServAccessLog.txt) used for tests*<br>
 - [statistic_v2](https://github.com/turczak/Flex/blob/main/statistic_v2.lex) - counts visists on website for each day
+<br>*[ServAccessLog](https://github.com/turczak/Flex/blob/main/ServAccessLog.txt) used for tests*<br>
+- [investigator](https://github.com/turczak/Flex/blob/main/investigator.lex) - find all urls and emails in file and save them to separated files
+  <br>*you can use curl or wget to deliver website as file*
+  <br>`./ivestigator <(curl https://github.com)`
