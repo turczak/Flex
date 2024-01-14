@@ -28,3 +28,8 @@ You can use `-L. -lfl` to include library from working directory
 - [investigator](https://github.com/turczak/Flex/blob/main/investigator.lex) - find all urls and emails in file and save them to separated files
   <br>*you can use curl or wget to deliver website as file*
   <br>`./ivestigator <(curl https://github.com)`
+<br>
+# Yacc
+## Install & usage
+`sudo apt install yacc`<br>
+`lex *.l && yacc -d *.y && gcc -o calc *.c -lfl`<br>
