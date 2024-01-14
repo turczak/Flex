@@ -29,6 +29,7 @@ You can use `-L. -lfl` to include library from working directory
   <br>*you can use curl or wget to deliver website as file*
   <br>`./ivestigator <(curl https://github.com)`
 <br>
+
 # Yacc
 ## Install & usage
 `sudo apt install yacc`<br>
